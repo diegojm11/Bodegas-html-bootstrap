@@ -121,28 +121,28 @@ transition: all 2s;
     padding-left: 70px;
     color: #171526;
 }
+
 .vinos_img{
     width: 250px;
     grid-area: vinos_img;
 }
 .vino1{
     margin: 30px;
-    width:600px;
+    width: 500px;
     height: 300px;  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
     grid-template-areas: "vinos_img vinos_titulo"
-                         "vinos_img vinos_descripcion" ;
+                         "vinos_img vinos_descripcion";
     overflow: hidden;
-   
     border-style: none;
     
 
 }
 .vino2{
     margin: 30px;
-    width: 600px;
+    width: 500px;
     height: 300px;  
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,7 +156,7 @@ transition: all 2s;
 }
 .vino3{
     margin: 30px;
-    width: 600px;
+    width: 500px;
     height: 300px;  
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -170,7 +170,7 @@ transition: all 2s;
 }
 .vino4{
     margin: 30px;
-    width: 600px;
+    width: 500px;
     height: 300px;  
     display: grid;
     grid-template-columns: 1fr 1fr;
