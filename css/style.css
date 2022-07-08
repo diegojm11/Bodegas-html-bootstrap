@@ -11,7 +11,7 @@ box-sizing: border-box;
 body {
     background-color: rgba(237, 235, 235, 0.821);
 }
-.Parral__img{ 
+.parral__img{ 
     width: 100%;
     margin: 0px;
 
@@ -29,24 +29,24 @@ body {
 .logoIndex{
     width: 160px;
 }
-.Titulo__index{
+.titulo__index{
     font-family: 'Cinzel', serif;
     font-size: 80px;
     color: rgb(215, 215, 215);
 }
 
-.Menu_index ul{
+.menu_index ul{
     list-style: none;
     height: 300px;
     width: 100%;
    
 }
-.Menu_index{
+.menu_index{
     background-color: rgba(196, 196, 196, 0.821);
  
 }
 
-.Menu_index ul li a{
+.menu_index ul li a{
     text-decoration: none;
     color:black;
     font-size: 50px;
@@ -113,6 +113,18 @@ transition: all 2s;
     color: rgb(168, 168, 168);
     font-size: 30px;
 }
+.nav-item:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+ }
+
+ .nav-item a:hover{
+    color: rgb(168, 168, 168) ;
+ }
+ 
+.navbar-toggler{
+    background-color:rgb(111, 110, 110);
+}
 
 .tituloPrincipal {
     font-family:'Italiana', serif;
@@ -128,7 +140,7 @@ transition: all 2s;
 }
 .vino1{
     margin: 30px;
-    width: 500px;
+    width:500px;
     height: 300px;  
     display: grid;
     grid-template-columns: 1fr 1fr;
